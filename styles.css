@@ -8,9 +8,9 @@
 
 
 /* This is a CSS comment
-It can be broken onto multiple lines. */
+It can be broken onto multiple lines. 
 
-A good tip is to add a block of comments between logical sections in your stylesheet too, to help locate different sections quickly when scanning through, or even give you something to search for to jump right into that part of the CSS. If you use a string which won't appear in the code you can jump from section to section by searching for it — below we have used ||
+A good tip is to add a block of comments between logical sections in your stylesheet too, to help locate different sections quickly when scanning through, or even give you something to search for to jump right into that part of the CSS. If you use a string which won't appear in the code you can jump from section to section by searching for it — below we have used ||*/
 
 /* || General styles */
 
@@ -23,7 +23,7 @@ A good tip is to add a block of comments between logical sections in your styles
 /* || Header and Main Navigation */
 
 
-You don't need to comment every single thing in your CSS, as much of it will be self-explanatory. What you should comment are the things where you made a particular decision for a reason.
+/*You don't need to comment every single thing in your CSS, as much of it will be self-explanatory. What you should comment are the things where you made a particular decision for a reason.
 
 Create logical sections in your stylesheet
 It is a good idea to have all of the common styling first in the stylesheet. This means all of the styles which will generally apply unless you do something special with that element. You will typically have rules set up for:
@@ -32,10 +32,10 @@ It is a good idea to have all of the common styling first in the stylesheet. Thi
 * h1, h2, h3, h4, h5
 * ul and ol
 * The table properties
-* Links
+* Links */
 
 
-In this section of the stylesheet we are providing default styling for the type on the site, setting up a default style for data tables and lists and so on.
+/*In this section of the stylesheet we are providing default styling for the type on the site, setting up a default style for data tables and lists and so on. /*
 
 /* || GENERAL STYLES */
 
@@ -80,7 +80,7 @@ img {
   
 }
 
-After this section we could define a few utility classes, for example a class that removes the default list style for lists we're going to display as flex items or in some other way. If you have a few things you know you will want to apply to lots of different elements, they can come in this section.
+/*After this section we could define a few utility classes, for example a class that removes the default list style for lists we're going to display as flex items or in some other way. If you have a few things you know you will want to apply to lots of different elements, they can come in this section. */
 
 /* || UTILITIES */
 
@@ -93,7 +93,7 @@ After this section we could define a few utility classes, for example a class th
 ...
 
 
-Then we can add everything that is used sitewide. That might be things like the basic page layout, the header, navigation styling, and so on.
+/*Then we can add everything that is used sitewide. That might be things like the basic page layout, the header, navigation styling, and so on. */
 
 /* || SITEWIDE */
 
@@ -102,7 +102,7 @@ Then we can add everything that is used sitewide. That might be things like the 
 .logo { ... }
 
 
-Finally we will include CSS for specific things, broken down by the context, page or even component in which they are used.
+/*Finally we will include CSS for specific things, broken down by the context, page or even component in which they are used. */
 
 /* || STORE PAGES */
 
@@ -166,4 +166,4 @@ img {
   padding: 50px;
 }
 
-By ordering things in this way, we at least have an idea in which part of the stylesheet we will be looking for something that we want to change.
+/* By ordering things in this way, we at least have an idea in which part of the stylesheet we will be looking for something that we want to change. */
